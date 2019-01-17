@@ -110,10 +110,7 @@ public class MainActivity extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (tvResult == null) {
-                    tvResult.setText("");
-                } else
-                    value1 = Float.parseFloat(tvResult.getText() + "");
+                value1 = Float.parseFloat(tvResult.getText() + "");
                 SUM = true;
                 tvResult.setText(null);
 
