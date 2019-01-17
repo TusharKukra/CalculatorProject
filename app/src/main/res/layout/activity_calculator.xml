@@ -14,7 +14,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="95dp"
         android:layout_marginTop="165dp"
-        android:text="@string/sub" />
+        android:text="-" />
 
     <Button
         android:id="@+id/divide"
@@ -24,7 +24,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="275dp"
         android:layout_marginTop="165dp"
-        android:text="@string/divide" />
+        android:text="/" />
 
     <Button
         android:id="@+id/prod"
@@ -34,7 +34,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="186dp"
         android:layout_marginTop="166dp"
-        android:text="@string/prod" />
+        android:text="*" />
 
     <TextView
         android:id="@+id/tvResult"
@@ -55,7 +55,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="165dp"
-        android:text="@string/add" />
+        android:text="+" />
 
     <Button
         android:id="@+id/zero"
@@ -65,7 +65,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="94dp"
         android:layout_marginTop="458dp"
-        android:text="@string/zero" />
+        android:text="0" />
 
     <Button
         android:id="@+id/seven"
@@ -75,7 +75,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="266dp"
-        android:text="@string/seven" />
+        android:text="7" />
 
     <Button
         android:id="@+id/clear"
@@ -86,7 +86,7 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="457dp"
         android:background="@android:color/holo_red_dark"
-        android:text="@string/clear"
+        android:text="C"
         tools:textColor="@android:color/background_light" />
 
     <Button
@@ -98,7 +98,7 @@
         android:layout_marginStart="181dp"
         android:layout_marginTop="457dp"
         android:background="@android:color/holo_green_dark"
-        android:text="@string/equal"
+        android:text="="
         tools:textColor="@android:color/background_light" />
 
     <Button
@@ -109,7 +109,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="182dp"
         android:layout_marginTop="401dp"
-        android:text="@string/three" />
+        android:text="3" />
 
     <Button
         android:id="@+id/two"
@@ -119,7 +119,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="94dp"
         android:layout_marginTop="400dp"
-        android:text="@string/two" />
+        android:text="2" />
 
     <Button
         android:id="@+id/six"
@@ -129,7 +129,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="181dp"
         android:layout_marginTop="333dp"
-        android:text="@string/six" />
+        android:text="6" />
 
     <Button
         android:id="@+id/five"
@@ -139,7 +139,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="94dp"
         android:layout_marginTop="334dp"
-        android:text="@string/five" />
+        android:text="5" />
 
     <Button
         android:id="@+id/one"
@@ -149,7 +149,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="401dp"
-        android:text="@string/one" />
+        android:text="1" />
 
     <Button
         android:id="@+id/four"
@@ -159,7 +159,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="334dp"
-        android:text="@string/four" />
+        android:text="4" />
 
     <Button
         android:id="@+id/nine"
@@ -169,7 +169,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="180dp"
         android:layout_marginTop="266dp"
-        android:text="@string/nine" />
+        android:text="9" />
 
     <Button
         android:id="@+id/eight"
@@ -179,5 +179,5 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="95dp"
         android:layout_marginTop="265dp"
-        android:text="@string/eight" />
+        android:text="8" />
 </RelativeLayout>
